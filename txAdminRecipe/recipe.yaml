@@ -21,10 +21,6 @@ tasks:
   - action: move_path
     src: ./resources/zombieoutbreak/txAdminRecipe/server.cfg
     dest: ./server.cfg
-  
-  - action: connect_database
-  - action: query_database
-    file: ./resources/zombieoutbreak/zombieoutbreak.sql
 
   # Download dependencies
 
